@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PurchaseOrder>
+
+	<OrderData id="od1">
+		<Transaction>1381</Transaction>
+		<Customer>
+			<Name>Alice Smith</Name>
+			<Address>
+				<Street>123 Maple Street</Street>
+				<City>Mill Valley</City>
+				<State>CA</State>
+				<Zip>90952</Zip>
+			</Address>
+		</Customer>
+		<Items>
+			<Item SKU="872">
+				<Name>Lawnmower</Name>
+				<Quantity>1</Quantity>
+				<Price>148.95</Price>
+			</Item>
+			<Item SKU="926">
+				<Name>Baby Monitor</Name>
+				<Quantity>1</Quantity>
+				<Price>39.98</Price>
+			</Item>
+		</Items>
+	</OrderData>
+
+	<PaymentInfo id="pi1">
+		<Transaction>1381</Transaction>
+		<Amount>188.93</Amount>
+		<CreditCard issuer="MoneyBag">
+			<Number>4019244502775567</Number>
+			<Expiration>2008-03-01</Expiration>
+		</CreditCard>
+	</PaymentInfo>
+
+</PurchaseOrder>

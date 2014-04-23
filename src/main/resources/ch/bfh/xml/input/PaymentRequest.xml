@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PaymentRequest>
+
+	<RequestData id="rd1">
+		<Transaction>1381</Transaction>
+		<Amount>188.93</Amount>
+		<Recipient>
+			<Name>Bob Meyer</Name>
+			<Bank>Treasure Box</Bank>
+			<Account>98-76543-21-0</Account>
+		</Recipient>
+	</RequestData>
+
+	<PaymentInfo id="pi1">
+		<Transaction>1381</Transaction>
+		<Amount>188.93</Amount>
+		<CreditCard issuer="Money Bag">
+			<Number>4019244502775567</Number>
+			<Expiration>2008-03-01</Expiration>
+		</CreditCard>
+	</PaymentInfo>
+
+</PaymentRequest>

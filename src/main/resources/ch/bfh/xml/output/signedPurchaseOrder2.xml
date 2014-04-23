@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><PurchaseOrder>
+ <Item number="130046593231">
+  <Description>Video Game</Description>
+  <Price>10.29</Price>
+ </Item>
+ <Buyer id="8492340">
+  <Name>My Name</Name>
+  <Address>
+   <Street>One Network Drive</Street>
+   <Town>Burlington</Town>
+   <State>MA</State>
+   <Country>United States</Country>
+   <PostalCode>01803</PostalCode>
+  </Address>
+ </Buyer>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>tVicGh6V+8cHbVYFIU91o5+L3OQ=</DigestValue></Reference></SignedInfo><SignatureValue>m39x+qpQd0RdwI0Ln7GQDIIq2GgJ5y6Yxu7yUWfm/8rNKJyVz1AI8p7ZfNo2u7PwR/0OIJaY6gZD
+jzVKxX9UPeX5tPMWN5trPbq6Tgj60tXcdGwC7fw83rq37bH7D/10tA+N5/HKENphugjeCWwrlhos
+ncXi1HhGAJ0r+0xOYFc=</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Alice</X509SubjectName><X509Certificate>MIIBlzCCAQCgAwIBAAIBATANBgkqhkiG9w0BAQUFADARMQ8wDQYDVQQDEwZSb290Q0EwIBcNOTkx
+MjMxMjMwMDAwWhgPMjA5OTEyMzEyMzAwMDBaMBAxDjAMBgNVBAMTBUFsaWNlMIGfMA0GCSqGSIb3
+DQEBAQUAA4GNADCBiQKBgQCl8X0PfDNWXR/RBEyWDaE3HqbAbdDD1n5/THhWggXLrLVJAtacY0cs
+Ask7/7txno0Ivk0G4FJPClidvGPPuHGy7YrMbSozzt95mBQaLfqo0hvQghKZlKKXq5nssDeLk4wL
+TUfdTZoFiwDgXNT59ZrLc2Wvp0cELTQmE983nvcw2QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAr+
+xudU2HdUCbZKBtolPY/1ZzVh3MWqh6XyA2zzWqMnm3KFMl/lBTK7UZubx0Q1iWI00HbwimcyX4sn
+mMWym2xa0/2fEq1MssdGZj4PucQmzPcjJE4Hb7IjjZCf7D/UsUggUYDU5bOsoprV9btlKfJqg78y
+0UdqsSI7yssLkuby</X509Certificate></X509Data></KeyInfo></Signature></PurchaseOrder>
